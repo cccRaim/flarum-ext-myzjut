@@ -3,6 +3,7 @@
   "description": "Make flarum can use jinghong account to log in!",
   "type": "flarum-extension",
   "version": "v0.0.1-beta.1",
+  "license": "MIT",
   "authors": [
     {
       "name": "cccRaim",
