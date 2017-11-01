@@ -1,5 +1,5 @@
 {
-  "name": "cccRaim/flarum-myzjut",
+  "name": "cccraim/flarum-myzjut",
   "description": "Make flarum can use jinghong account to log in!",
   "type": "flarum-extension",
   "require": {
