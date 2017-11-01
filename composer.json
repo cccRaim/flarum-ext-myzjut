@@ -1,13 +1,33 @@
 {
-  "name": "cccraim/flarum-myzjut",
+  "name": "cccraim/flarum-ext-myzjut",
   "description": "Make flarum can use jinghong account to log in!",
   "type": "flarum-extension",
+  "version": "v0.0.1-beta.1",
+  "authors": [
+    {
+      "name": "cccRaim",
+      "email": "chen.raim@qq.com"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/jsthon/flarum-ext-simplified-chinese"
+  },
   "require": {
     "flarum/core": "^0.1.0-beta.7"
   },
   "extra": {
     "flarum-extension": {
-      "title": "Hello World"
+      "title": "Myzjut Login",
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#c71414",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center"
+      }
+    },
+    "flarum-locale": {
+      "code": "zh",
+      "title": "精弘账号登录"
     }
   }
 }
